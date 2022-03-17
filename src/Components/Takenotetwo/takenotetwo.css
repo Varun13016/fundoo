@@ -1,0 +1,177 @@
+.notetwobox{
+  
+        width: 30vw;
+        height: 15vh;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 10px  ;     
+}
+.notetwo{
+    height: 20vh;
+    width: 30vw;
+    border: 1px solid black;
+    top: 15vh;
+    left: 35%;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Rowone{
+    width:30vw;
+    height: 5vh;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+}
+.Title{
+    height: 6vh;
+    width: 35vw;
+    overflow: hidden;
+}
+.pinicon{
+    height: 6vh;
+    width: 10vw;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+}
+.takenotes{
+    height: 10vh;
+    /* border: 1px solid red; */
+    width: 40vw;
+    object-fit: cover;
+    /* padding: 15px; */
+}
+.notetwoicon{
+    
+        width: 30vw;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+   
+}
+.singleicon{
+    width: 30vw;
+    height: 5vh;
+}
+.icons{
+    height: 5vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;    
+    overflow: hidden;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#icons{
+    width: 70%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    /* border: '1px solid red'; */
+    margin-left: 5px;
+    justify-content: space-between;
+}
+.close{
+    width: 20%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.notetwosearch{
+    width: 30vw;
+    height: 5vh;
+}
+#Rowone{
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    align-items: center
+}
+@media only screen and (min-width:320px)and (max-width:480px){
+    .notetwobox{
+        width:80%;
+        left: 5%;
+    }
+    /* .close{
+        overflow: auto;
+    } */
+    .Rowone{
+        width:100%
+    }
+    .notetwoicon{
+        width: 100%;
+    }
+    .icons{
+        width: 100%;
+    }
+    #icons{
+        width:70%;
+        overflow:auto;
+    }
+    .notetwosearch{
+        width: 100%;
+    }
+    #Rowone{
+        width: 100%;
+    }
+    .singleicon{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:481px)and (max-width:768px){
+    .notetwobox{
+        width:80%;
+        left: 5%;
+    }
+    .close{
+        overflow: hidden;
+    }
+    .notetwoicon{
+        width: 100%;
+    }
+    .Rowone{
+        width:100%
+    }
+    .icons{
+        width: 100%;
+    }
+    .notetwosearch{
+        width: 100%;
+    }
+    #Rowone{
+        width: 100%;
+    }
+    .singleicon{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:769px)and (max-width:1024px){
+    .notetwobox{
+        width:90%;
+    }
+    .singleicon{
+        width: 100%;
+    }
+    .Rowone{
+        width:100%
+    }
+    #Rowone{
+        width: 100%;
+    }
+    .icons{
+        width: 100%;
+    }
+    .notetwoicon{
+        width: 100%;
+    }
+    
+}

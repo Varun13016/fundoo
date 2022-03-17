@@ -1,0 +1,126 @@
+.mainbox{
+    width: 25vw;
+    height: 60vh;
+    border: 1px solid gray;
+    border-radius: 2%;
+    display: flex;
+    position: relative;
+    left: 30%;
+    top: 80px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    justify-content: space-around;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    height: 24px;
+}
+#G{
+    color: blue;
+    font-size: 30px;
+    font-weight: 50%;
+}
+#o1{
+    color: orange;
+    font-size: 28px;
+}
+#o2{
+    color: yellow;
+    font-size: 28px;
+}
+#g{
+    color: blue;
+    font-size: 28px;
+}
+#l{
+    color: greenyellow;
+    font-size: 28px;
+}
+#e{
+    color: orangered;
+    font-size: 28px;
+}
+.text{
+    font-size:23px ;
+    /* left: 35%; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.gmail{
+    font-weight: 200px;
+    font-family:sans-serif;
+    /* left: 25%; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.mailbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forget{
+    color: rgb(62, 170, 238);
+    display: flex;
+    justify-content: flex-start;
+}
+.text1{  
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+}
+.learnmore{
+    color: rgb(62, 170, 238);
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+.middle{
+    display: flex;
+    justify-content:space-between;
+}
+.create{
+    color: rgb(62, 170, 238);   
+}
+@media only screen and (min-width : 320px) and (max-width : 480px){
+    .mainbox{
+        width: 80vw;
+        height: 90vh;
+        left: 0%;
+        top: 0%;
+        border: none;
+        padding: 5px;
+        left: 6%;
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px){
+    .mainbox{
+        width: 80vw;
+        height: 70vh;
+        left: 0%;
+        top: 0%;
+        border: none;
+        padding: 5px;
+        left: 6%;
+    }
+}
+@media only screen and (min-width : 769px) and (max-width : 1024px){
+    .mainbox{
+        width: 60vw;
+        height:60vh;
+        left: 15%;
+        margin-top: 10%;
+
+    }
+}

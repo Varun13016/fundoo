@@ -1,0 +1,115 @@
+.headcontainer{
+    width : 100vw;
+    height : 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    border-bottom: 2px solid grey;
+}
+.firstheader{
+   
+    width: 120px;
+    height: 40px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+.Head{
+    height: 07vh;
+    width: 100vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5%;
+    background-color: rgb(221, 221, 248);
+    top: 100px;
+}
+.onebox{
+
+    width: 20vw;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.searchbox{
+    height: 50%;
+    width: 40%;
+    margin-left: 10%;
+}
+.textfundoo{
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+.twobox {
+    width: 50vw;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+}
+.textbox{
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    width: 100vw;
+}
+
+.threeicons{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%
+}
+.lastheader{
+    width: 100px;
+    height: 50px;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    margin-left: 10%;
+}
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+    .lastheader{
+        display: none;
+    }
+    .searchbox{
+        display:none;
+    }
+    .threeicons{
+        margin-left: 30%;
+    }
+    .headcontainer{
+        display: flex;        
+    }
+
+}
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    .lastheader{
+        display: none;
+    }
+    .searchbox{
+        display:none;
+    }
+    .threeicons{
+        margin-left: 15%;
+    }
+    .firstheader{
+        height: 15px;
+    }
+    .textfundoo{
+        font-size: 1.5em;
+    }
+}
+/* @media only screen and (min-width : 769px) and (max-width : 1024px){} */

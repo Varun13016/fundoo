@@ -1,0 +1,69 @@
+.noteonebox{
+    width: 30vw;
+    height:7vh;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.noteoneinput{
+    
+        width: 70%;
+        height: 8vh;
+        /* border: 1px solid green; */
+        display: flex;
+        align-items: center;
+        /* margin-Left: 10px; */
+}
+.note{
+    width : 100%;
+    height : 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.iconbox{
+    width: 30vw;
+    height: 8vh;   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.noteoneicons{
+    width: 30%;
+    height: 8vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between
+}
+@media only screen and (min-width:320px)and (max-width:480px){
+    .noteonebox{
+        width: 80%;
+        height: 7vh;
+        left: 0%;
+    }
+    .noteoneicons{
+        display: none;
+    }
+}
+@media only screen and (min-width:481px)and (max-width:768px){
+    .noteonebox{
+        width: 80%;
+        height: 7vh;
+        left: 0%;
+    }
+    .noteoneicons{
+        display: none;
+    }
+}
+@media only screen and (min-width:769px)and (max-width:1024px){
+    .noteonebox{
+        width: 90%;
+    }
+}
